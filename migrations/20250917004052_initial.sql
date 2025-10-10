@@ -36,7 +36,7 @@ values (1, 'admin'),
        (2, 'user');
 
 insert into app.state(id, name)
-values (0, 'inactive'),
+values (0, 'deleted'),
        (1, 'active');
 
 create role api;
